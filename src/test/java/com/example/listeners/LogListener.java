@@ -1,10 +1,9 @@
-package example.example.listeners;
+package com.example.listeners;
 
+import com.example.util.LoggerUtil;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
-import example.example.util.LoggerUtil;
 
 /**
  * The listener interface for receiving log events. The class that is interested
@@ -13,7 +12,6 @@ import example.example.util.LoggerUtil;
  * <code>addLogListener<code> method. When the log event occurs, that object's
  * appropriate method is invoked.
  *
- * @see LogEvent
  */
 public class LogListener implements ITestListener {
 

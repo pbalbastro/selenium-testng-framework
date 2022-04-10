@@ -1,4 +1,4 @@
-package example.example.listeners;
+package com.example.listeners;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -6,8 +6,8 @@ import org.testng.ITestResult;
 
 import com.relevantcodes.extentreports.LogStatus;
 
-import example.example.report.ExtentReportManager;
-import example.example.util.ReportUtil;
+import com.example.report.ExtentReportManager;
+import com.example.util.ReportUtil;
 
 /**
  * The listener interface for receiving report events. The class that is
@@ -16,7 +16,6 @@ import example.example.util.ReportUtil;
  * component's <code>addReportListener<code> method. When the report event
  * occurs, that object's appropriate method is invoked.
  *
- * @see ReportEvent
  */
 public class ReportListener implements ITestListener {
 
